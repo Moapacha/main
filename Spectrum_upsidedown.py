@@ -1,8 +1,3 @@
-streamlit==0.88.0
-numpy==1.21.0
-librosa==0.8.1
-scipy==1.7.0
-
 import streamlit as st
 import numpy as np
 import librosa
