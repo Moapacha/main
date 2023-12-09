@@ -21,7 +21,6 @@ def apply_new_timbre(audio, new_timbre, original_sr):
 def main():
     st.title("UPSIDEDOWN")
 
-    # 为 file_uploader 指定唯一的 key 参数
     audio_file = st.file_uploader("上传音频文件", type=["wav", "mp3"], key="unique_key")
 
     if audio_file is not None:
