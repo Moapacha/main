@@ -9,7 +9,6 @@ def analyze_timbre(audio):
 
 def design_new_timbre(original_timbre):
     reversed_spectrogram = np.flipud(original_timbre["spectrogram"])
-    reversed_spectrogram = np.fliplr(reversed_spectrogram)
     return {"spectrogram": reversed_spectrogram}
 
 def apply_new_timbre(audio, new_timbre, original_sr):
