@@ -1,3 +1,4 @@
+python==3.11.5
 streamlit==0.88.0
 numpy==1.25
 librosa==0.8.1
